@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Nosso dia 7, amor</title>
+    <title>Mais um dia 7 com você</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         html, body {
@@ -17,12 +17,12 @@
             min-height: 100vh;
             height: 100vh;
             margin: 0;
-            background: #222; /* followers: color de fondo principal */
+            background: #080808;
             background-size: initial;
             animation: none;
         }
         body.lamp-on {
-            background: #444; /* followers: color de fondo cuando la lámpara está encendida */
+            background: #555454;
         }
         body.light-on {
             background: linear-gradient(270deg, #fffbe6, #ffe0b2, #fffbe6, #fffde7, #fffbe6); /* followers: gradiente de fondo con la luz encendida */
@@ -48,11 +48,11 @@
         #desktop-btn {
             width: 120px;
             height: 56px;
-            border: 2px solid #e52e71; /* followers: color del borde del botón */
+            border: 2px solid #da257f;
             border-radius: 28px;
-            background: #ccc; /* followers: color de fondo del botón */
+            background: #ccc;
             position: relative;
-            color: #fff; /* followers: color del texto del botón */
+            color: #fff;
             font-size: 1.3rem;
             font-weight: bold;
             box-shadow:
@@ -104,7 +104,6 @@
             transition: color 0.3s;
             letter-spacing: 1px;
             text-shadow: 0 1px 2px rgba(0,0,0,0.12);
-            /* followers: aquí puedes cambiar el estilo del texto del botón */
         }
         #desktop-btn.on span {
             color: #fff;
@@ -232,7 +231,7 @@
                 height: 120px;
             }
             #love-message {
-                font-size: 10px; /* followers: tamaño del mensaje mobile */
+                font-size: 35px;
                 top: 160px;
                 padding: 0 10px;
                 word-break: break-word;
@@ -367,8 +366,8 @@
             margin-left: auto;
             margin-right: auto;
             top: 240px;
-            font-size: 20px; /* followers: tamaño del mensaje */
-            color: #ffffff; /* followers: color del mensaje */
+            font-size: 30pix;
+            color: #ffffff;
             text-shadow: 0 2px 16px #fffbe7, 0 1px 2px #000;
             z-index: 20;
             text-align: center;
@@ -376,7 +375,7 @@
             transition: opacity 0.7s;
             opacity: 0;
             white-space: pre-line;
-            border-right: 2px solid #e52e71; /* followers: color del borde animado del mensaje */
+            border-right: 2px solid #ce2b53;
             overflow: hidden;
             padding: 0.25em 1em;
             box-sizing: border-box;
@@ -395,7 +394,6 @@
     </style>
 </head>
 <body>
-    <!-- Lámpara SVG colgante -->
     <div id="lamp-container">
         <div class="lamp-cable"></div>
         <div id="svg-lamp">
@@ -412,68 +410,26 @@
                 <g>
                     <ellipse id="lamp-glow" cx="48" cy="130" rx="65" ry="38" style="fill: url(#lamp-gradient); opacity: 0; transition: opacity 0.4s;" />
                     <path id="lamp-shape" class="st0" d="M0.91,73.04h93.37c1.47-1.96,1.25-3.97,0-6L59.64,22.9H37.03L0.91,67.03C-0.1,69.08-0.5,71.1,0.91,73.04 L0.91,73.04z M45.38,97.3c0-1.25,1.02-2.27,2.27-2.27c1.25,0,2.27,1.02,2.27,2.27v23.32c0,1.25-1.02,2.27-2.27,2.27 c-1.25,0-2.27-1.02-2.27-2.27V97.3L45.38,97.3z M65.66,93.83c-0.91-0.85-0.97-2.27-0.12-3.19c0.85-0.91,2.27-0.97,3.19-0.12 l17.98,16.63c0.91,0.85,0.97,2.27,0.12,3.19c-0.85,0.91-2.28,0.97-3.19,0.12L65.66,93.83L65.66,93.83z M27.15,90.47 c0.94-0.82,2.37-0.73,3.19,0.21c0.82,0.94,0.73,2.37-0.21,3.19L12.15,109.6c-0.94,0.82-2.37,0.73-3.19-0.21 c-0.82-0.94-0.73-2.37,0.21-3.19L27.15,90.47L27.15,90.47z M45.09,0h5.13v8.9c4.88,1.17,8.53,5.58,8.53,10.8v0.72h-22.2v-0.72 c0-5.22,3.66-9.63,8.54-10.8V0L45.09,0z M47.82,88.58L47.82,88.58c5.99,0,10.9-4.9,10.9-10.9v-0.7H36.92v0.7 C36.92,83.68,41.82,88.58,47.82,88.58L47.82,88.58z"/>
-                    <!-- Luz intensa en la base de la lámpara -->
-                    <circle id="lamp-bulb" cx="48" cy="73" r="8" style="fill: #fffbe7; opacity: 0; filter: blur(2px);" />
+                    <circle id="lamp-bulb" cx="48" cy="73" r="8" style="fill: #e4d06f; opacity: 0; filter: blur(2px);" />
                 </g>
             </svg>
         </div>
     </div>
-    <div id="love-message"> 💞Amor, nunca imaginei amar alguém da maneira como amo você. Tudo em você é incrível, e ao seu lado me sinto completo, sinto que a cada dia que passo contigo, me torno uma versão melhor de mim mesmo. Sabe, vida? Desde que você chegou, o futuro deixou de me assustar, porque simplesmente não consigo mais imaginá-lo sem você. Enquanto estivermos juntos, tenho certeza que tudo vai ficar bem! Afinal, você é meu porto seguro, meu refúgio, e ao teu lado me sinto capaz de conquistar o mundo. Princesa, embora façam apenas 60 dias que nos conhecemos (parece tão pouco tempo), sinto que te conheço há uma vida inteira, como se nossas almas já se buscassem há muito tempo. E o tempo ao teu lado voa de um jeito que nunca vivi antes, provavelmente porque, com você, finalmente conheci o que é felicidade. Julia, você cuida de mim com tanto amor, me protege e me mostra todos os dias o que é amar e ser amado de verdade, eu tenho absoluta certeza que você é o amor da minha vida. Te amo hoje, amanhã e sempre, e que venham muitos e muitos "dias 7" ao seu lado, minha vida  💞 </div> <!--Followers : Cambiar el texto-->
-    <!-- Botón para escritorio -->
+    <div id="love-message">💞Amor, nunca imaginei amar alguém da maneira como amo você. Tudo em você é incrível, e ao seu lado me sinto completo, sinto que a cada dia que passo contigo, me torno uma versão melhor de mim mesmo. Sabe, vida? Desde que você chegou, o futuro deixou de me assustar, porque simplesmente não consigo mais imaginá-lo sem você. Enquanto estivermos juntos, tenho certeza que tudo vai ficar bem! Afinal, você é meu porto seguro, meu refúgio, e ao teu lado me sinto capaz de conquistar o mundo. Princesa, embora façam apenas 60 dias que nos conhecemos (parece tão pouco tempo), sinto que te conheço há uma vida inteira, como se nossas almas já se buscassem há muito tempo. E o tempo ao teu lado voa de um jeito que nunca vivi antes, provavelmente porque, com você, finalmente conheci o que é felicidade.	Julia, você cuida de mim com tanto amor, me protege e me mostra todos os dias o que é amar e ser amado de verdade, eu tenho absoluta certeza que você é o amor da minha vida. Te amo hoje, amanhã e sempre, e que venham muitos e muitos "dias 7" ao seu lado, minha vida  💞 </div>
     <div class="center-desktop">
         <button id="desktop-btn" type="button"><span>OFF</span></button>
     </div>
-    <!-- Botón para mobile -->
     <div class="center-mobile">
         <button id="mobile-btn" type="button"><span>OFF</span></button>
     </div>
-    <!-- Audio oculto para la música -->
-    <audio id="lamp-audio" src="music/Olha.mp3"></audio>
+    <audio id="lamp-audio" src="music/Olha.wma"></audio>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            function setupSwitch(btnId) {
-                const btn = document.getElementById(btnId);
-                if (!btn) return;
-                btn.addEventListener('click', function() {
-                    btn.classList.toggle('on');
-                    const span = btn.querySelector('span');
-                    const isOn = btn.classList.contains('on');
-                    if (isOn) {
-                        span.textContent = 'ON';
-                        document.getElementById('lamp-container').classList.add('lamp-on');
-                        document.body.classList.add('lamp-on');
-                        typeLoveMessage();
-                    } else {
-                        span.textContent = 'OFF';
-                        document.getElementById('lamp-container').classList.remove('lamp-on');
-                        document.body.classList.remove('lamp-on');
-                        resetLoveMessage();
-                    }
-                });
-            }
-            setupSwitch('desktop-btn');
-            setupSwitch('mobile-btn');
-
-            // Efecto máquina de escribir para el mensaje
-            const msgEl = document.getElementById('love-message');
-            const msgText = msgEl ? msgEl.textContent : '';
-            function typeLoveMessage() {
-                if (!msgEl) return;
-                msgEl.textContent = '';
-                let i = 0;
-                function type() {
-                    if (i <= msgText.length) {
-                        msgEl.textContent = msgText.slice(0, i);
-                        i++;
-                        setTimeout(type, 60);
-                    }
-                }
-                type();
-            }
-            function resetLoveMessage() {
-                if (!msgEl) return;
-                msgEl.textContent = '';
-            }
+            // Remova a função setupSwitch, ela não é mais necessária como ouvinte de evento separado.
+            // function setupSwitch(btnId) { ... }
+            // E as chamadas a ela:
+            // setupSwitch('desktop-btn');
+            // setupSwitch('mobile-btn');
 
             const audio = document.getElementById('lamp-audio');
             const desktopBtn = document.getElementById('desktop-btn');
@@ -483,52 +439,90 @@
             const lampContainer = document.getElementById('lamp-container');
             const loveMessage = document.getElementById('love-message');
 
-            let lampOn = false;
-            let lampAnimated = false;
+            let lampOn = false; // Estado inicial: lâmpada desligada
+            let lampAnimated = false; // Para controlar a animação inicial da queda da lâmpada
 
+            // Função para exibir a mensagem de amor digitando
+            const msgEl = document.getElementById('love-message'); // Já existe
+            const msgText = msgEl ? msgEl.textContent : ''; // Conteúdo original da mensagem
+            function showLoveMessage() {
+                if (!msgEl) return;
+                msgEl.textContent = ''; // Limpa o texto existente
+                let i = 0;
+                // Exibe a mensagem e inicia a animação de digitação
+                msgEl.style.opacity = '1';
+                msgEl.style.animation = 'fadeInMsg 1.2s 0.5s both';
+
+                function type() {
+                    if (i < msgText.length) {
+                        msgEl.textContent += msgText.charAt(i); // Adiciona um caractere por vez
+                        i++;
+                        setTimeout(type, 60);
+                    } else {
+                        // Após a digitação, remove a propriedade animation para permitir que a opacidade seja controlada diretamente
+                        msgEl.style.animation = '';
+                    }
+                }
+                type();
+            }
+
+            // Função para ocultar e resetar a mensagem
+            function resetLoveMessage() {
+                if (!msgEl) return;
+                msgEl.style.opacity = '0'; // Oculta a mensagem
+                msgEl.textContent = ''; // Limpa o texto
+                msgEl.style.animation = ''; // Limpa a propriedade animation
+            }
+
+            // Esta função agora será o único manipulador de clique para ambos os botões
             function toggleLampAndMusic() {
-                lampOn = !lampOn;
+                lampOn = !lampOn; // Inverte o estado da lâmpada
 
-                // Cambia la opacidad de la luz de la lámpara
+                // Atualiza o estado visual e o texto de AMBOS os botões
+                desktopBtn.classList.toggle('on', lampOn);
+                desktopBtn.querySelector('span').textContent = lampOn ? 'ON' : 'OFF';
+
+                mobileBtn.classList.toggle('on', lampOn);
+                mobileBtn.querySelector('span').textContent = lampOn ? 'ON' : 'OFF';
+
+                // Atualiza a visibilidade do brilho e da lâmpada
                 if (lampGlow && lampBulb) {
                     lampGlow.style.opacity = lampOn ? '1' : '0';
                     lampBulb.style.opacity = lampOn ? '1' : '0';
                 }
 
-                // Cambia el texto de los botones
-                desktopBtn.querySelector('span').textContent = lampOn ? 'ON' : 'OFF';
-                mobileBtn.querySelector('span').textContent = lampOn ? 'ON' : 'OFF';
+                // Alterna as classes 'lamp-on' e 'light-on' no corpo e no contêiner da lâmpada
+                document.body.classList.toggle('lamp-on', lampOn);
+                document.body.classList.toggle('light-on', lampOn);
+                lampContainer.classList.toggle('lamp-on', lampOn);
 
-                // Controla la música
                 if (lampOn) {
                     audio.currentTime = 0;
                     audio.play();
 
-                    if (!lampAnimated) {
+                    if (!lampAnimated) { // Se for a primeira vez que a lâmpada é ligada
                         lampAnimated = true;
-                        lampContainer.classList.add('lamp-down');
-                        // Espera a que termine la animación de bajada (2.5s), luego espera 3s más antes de mostrar el mensaje
-                        setTimeout(() => {
-                            setTimeout(() => {
-                                showLoveMessage();
-                            }, 3000); // 3 segundos después de bajar
-                        }, 2500); // tiempo de bajada de la lámpara
-                    } else {
-                        setTimeout(() => {
+                        lampContainer.classList.add('lamp-down'); // Animação de queda inicial
+                        setTimeout(() => { // Atraso antes de mostrar a mensagem
                             showLoveMessage();
-                        }, 3000);
+                        }, 2500); // Espera a animação de queda da lâmpada terminar
+                    } else { // Se não for a primeira vez
+                        showLoveMessage(); // Mostra a mensagem imediatamente
                     }
                 } else {
                     audio.pause();
                     audio.currentTime = 0;
-                    loveMessage.classList.add('hidden');
+                    resetLoveMessage(); // Oculta e limpa a mensagem
+                    // Reseta o estado da animação da lâmpada para a próxima vez que for ligada
+                    lampContainer.classList.remove('lamp-down');
+                    lampAnimated = false;
                 }
             }
 
+            // Anexa o único manipulador de clique unificado a ambos os botões
             desktopBtn.addEventListener('click', toggleLampAndMusic);
             mobileBtn.addEventListener('click', toggleLampAndMusic);
         });
     </script>
 </body>
 </html>
-
